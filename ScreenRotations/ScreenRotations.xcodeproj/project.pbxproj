@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BD613241948368100FEFB8A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BD613231948368100FEFB8A /* UIKit.framework */; };
+		8BD613261948368100FEFB8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BD613251948368100FEFB8A /* Foundation.framework */; };
+		8BD613281948368100FEFB8A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BD613271948368100FEFB8A /* CoreGraphics.framework */; };
+		8BD6132E1948368100FEFB8A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8BD6132C1948368100FEFB8A /* InfoPlist.strings */; };
+		8BD613301948368100FEFB8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD6132F1948368100FEFB8A /* main.m */; };
+		8BD613341948368100FEFB8A /* ScreenRotationsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD613331948368100FEFB8A /* ScreenRotationsAppDelegate.m */; };
+		8BD613361948368100FEFB8A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BD613351948368100FEFB8A /* Default.png */; };
+		8BD613381948368100FEFB8A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BD613371948368100FEFB8A /* Default@2x.png */; };
+		8BD6133A1948368100FEFB8A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BD613391948368100FEFB8A /* Default-568h@2x.png */; };
+		8BD6133D1948368100FEFB8A /* ScreenRotationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD6133C1948368100FEFB8A /* ScreenRotationsViewController.m */; };
+		8BD613431948368100FEFB8A /* ScreenRotationsViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BD613411948368100FEFB8A /* ScreenRotationsViewController_iPad.xib */; };
+		8BD613491948398700FEFB8A /* ScreenRotationsViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BD6133E1948368100FEFB8A /* ScreenRotationsViewController_iPhone.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8BD613201948368100FEFB8A /* ScreenRotations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenRotations.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BD613231948368100FEFB8A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8BD613251948368100FEFB8A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8BD613271948368100FEFB8A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8BD6132B1948368100FEFB8A /* ScreenRotations-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScreenRotations-Info.plist"; sourceTree = "<group>"; };
+		8BD6132D1948368100FEFB8A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8BD6132F1948368100FEFB8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8BD613311948368100FEFB8A /* ScreenRotations-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScreenRotations-Prefix.pch"; sourceTree = "<group>"; };
+		8BD613321948368100FEFB8A /* ScreenRotationsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScreenRotationsAppDelegate.h; sourceTree = "<group>"; };
+		8BD613331948368100FEFB8A /* ScreenRotationsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScreenRotationsAppDelegate.m; sourceTree = "<group>"; };
+		8BD613351948368100FEFB8A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8BD613371948368100FEFB8A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8BD613391948368100FEFB8A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8BD6133B1948368100FEFB8A /* ScreenRotationsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScreenRotationsViewController.h; sourceTree = "<group>"; };
+		8BD6133C1948368100FEFB8A /* ScreenRotationsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScreenRotationsViewController.m; sourceTree = "<group>"; };
+		8BD6133F1948368100FEFB8A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ScreenRotationsViewController_iPhone.xib; sourceTree = "<group>"; };
+		8BD613421948368100FEFB8A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ScreenRotationsViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BD6131D1948368100FEFB8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BD613241948368100FEFB8A /* UIKit.framework in Frameworks */,
+				8BD613261948368100FEFB8A /* Foundation.framework in Frameworks */,
+				8BD613281948368100FEFB8A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BD613171948368100FEFB8A = {
+			isa = PBXGroup;
+			children = (
+				8BD613291948368100FEFB8A /* ScreenRotations */,
+				8BD613221948368100FEFB8A /* Frameworks */,
+				8BD613211948368100FEFB8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BD613211948368100FEFB8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BD613201948368100FEFB8A /* ScreenRotations.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BD613221948368100FEFB8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BD613231948368100FEFB8A /* UIKit.framework */,
+				8BD613251948368100FEFB8A /* Foundation.framework */,
+				8BD613271948368100FEFB8A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8BD613291948368100FEFB8A /* ScreenRotations */ = {
+			isa = PBXGroup;
+			children = (
+				8BD613321948368100FEFB8A /* ScreenRotationsAppDelegate.h */,
+				8BD613331948368100FEFB8A /* ScreenRotationsAppDelegate.m */,
+				8BD6133B1948368100FEFB8A /* ScreenRotationsViewController.h */,
+				8BD6133C1948368100FEFB8A /* ScreenRotationsViewController.m */,
+				8BD6133E1948368100FEFB8A /* ScreenRotationsViewController_iPhone.xib */,
+				8BD613411948368100FEFB8A /* ScreenRotationsViewController_iPad.xib */,
+				8BD6132A1948368100FEFB8A /* Supporting Files */,
+			);
+			path = ScreenRotations;
+			sourceTree = "<group>";
+		};
+		8BD6132A1948368100FEFB8A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BD6132B1948368100FEFB8A /* ScreenRotations-Info.plist */,
+				8BD6132C1948368100FEFB8A /* InfoPlist.strings */,
+				8BD6132F1948368100FEFB8A /* main.m */,
+				8BD613311948368100FEFB8A /* ScreenRotations-Prefix.pch */,
+				8BD613351948368100FEFB8A /* Default.png */,
+				8BD613371948368100FEFB8A /* Default@2x.png */,
+				8BD613391948368100FEFB8A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BD6131F1948368100FEFB8A /* ScreenRotations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BD613461948368100FEFB8A /* Build configuration list for PBXNativeTarget "ScreenRotations" */;
+			buildPhases = (
+				8BD6131C1948368100FEFB8A /* Sources */,
+				8BD6131D1948368100FEFB8A /* Frameworks */,
+				8BD6131E1948368100FEFB8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScreenRotations;
+			productName = ScreenRotations;
+			productReference = 8BD613201948368100FEFB8A /* ScreenRotations.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BD613181948368100FEFB8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ScreenRotations;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Developer;
+			};
+			buildConfigurationList = 8BD6131B1948368100FEFB8A /* Build configuration list for PBXProject "ScreenRotations" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8BD613171948368100FEFB8A;
+			productRefGroup = 8BD613211948368100FEFB8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BD6131F1948368100FEFB8A /* ScreenRotations */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BD6131E1948368100FEFB8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BD6132E1948368100FEFB8A /* InfoPlist.strings in Resources */,
+				8BD613361948368100FEFB8A /* Default.png in Resources */,
+				8BD613381948368100FEFB8A /* Default@2x.png in Resources */,
+				8BD6133A1948368100FEFB8A /* Default-568h@2x.png in Resources */,
+				8BD613431948368100FEFB8A /* ScreenRotationsViewController_iPad.xib in Resources */,
+				8BD613491948398700FEFB8A /* ScreenRotationsViewController_iPhone.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BD6131C1948368100FEFB8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BD613301948368100FEFB8A /* main.m in Sources */,
+				8BD613341948368100FEFB8A /* ScreenRotationsAppDelegate.m in Sources */,
+				8BD6133D1948368100FEFB8A /* ScreenRotationsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8BD6132C1948368100FEFB8A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BD6132D1948368100FEFB8A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8BD6133E1948368100FEFB8A /* ScreenRotationsViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BD6133F1948368100FEFB8A /* en */,
+			);
+			name = ScreenRotationsViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		8BD613411948368100FEFB8A /* ScreenRotationsViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BD613421948368100FEFB8A /* en */,
+			);
+			name = ScreenRotationsViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BD613441948368100FEFB8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BD613451948368100FEFB8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BD613471948368100FEFB8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScreenRotations/ScreenRotations-Prefix.pch";
+				INFOPLIST_FILE = "ScreenRotations/ScreenRotations-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8BD613481948368100FEFB8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScreenRotations/ScreenRotations-Prefix.pch";
+				INFOPLIST_FILE = "ScreenRotations/ScreenRotations-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BD6131B1948368100FEFB8A /* Build configuration list for PBXProject "ScreenRotations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BD613441948368100FEFB8A /* Debug */,
+				8BD613451948368100FEFB8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BD613461948368100FEFB8A /* Build configuration list for PBXNativeTarget "ScreenRotations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BD613471948368100FEFB8A /* Debug */,
+				8BD613481948368100FEFB8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BD613181948368100FEFB8A /* Project object */;
+}

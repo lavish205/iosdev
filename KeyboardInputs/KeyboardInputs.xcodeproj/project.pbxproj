@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BBB477A19482584004A8315 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BBB477919482584004A8315 /* UIKit.framework */; };
+		8BBB477C19482584004A8315 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BBB477B19482584004A8315 /* Foundation.framework */; };
+		8BBB477E19482584004A8315 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BBB477D19482584004A8315 /* CoreGraphics.framework */; };
+		8BBB478419482584004A8315 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8BBB478219482584004A8315 /* InfoPlist.strings */; };
+		8BBB478619482584004A8315 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BBB478519482584004A8315 /* main.m */; };
+		8BBB478A19482584004A8315 /* KeyboardInputsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BBB478919482584004A8315 /* KeyboardInputsAppDelegate.m */; };
+		8BBB478C19482584004A8315 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BBB478B19482584004A8315 /* Default.png */; };
+		8BBB478E19482584004A8315 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BBB478D19482584004A8315 /* Default@2x.png */; };
+		8BBB479019482584004A8315 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BBB478F19482584004A8315 /* Default-568h@2x.png */; };
+		8BBB479319482584004A8315 /* KeyboardInputsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BBB479219482584004A8315 /* KeyboardInputsViewController.m */; };
+		8BBB479619482584004A8315 /* KeyboardInputsViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BBB479419482584004A8315 /* KeyboardInputsViewController_iPhone.xib */; };
+		8BBB479919482584004A8315 /* KeyboardInputsViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BBB479719482584004A8315 /* KeyboardInputsViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8BBB477619482584004A8315 /* KeyboardInputs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyboardInputs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BBB477919482584004A8315 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8BBB477B19482584004A8315 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8BBB477D19482584004A8315 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8BBB478119482584004A8315 /* KeyboardInputs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KeyboardInputs-Info.plist"; sourceTree = "<group>"; };
+		8BBB478319482584004A8315 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8BBB478519482584004A8315 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8BBB478719482584004A8315 /* KeyboardInputs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KeyboardInputs-Prefix.pch"; sourceTree = "<group>"; };
+		8BBB478819482584004A8315 /* KeyboardInputsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardInputsAppDelegate.h; sourceTree = "<group>"; };
+		8BBB478919482584004A8315 /* KeyboardInputsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardInputsAppDelegate.m; sourceTree = "<group>"; };
+		8BBB478B19482584004A8315 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8BBB478D19482584004A8315 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8BBB478F19482584004A8315 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8BBB479119482584004A8315 /* KeyboardInputsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardInputsViewController.h; sourceTree = "<group>"; };
+		8BBB479219482584004A8315 /* KeyboardInputsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardInputsViewController.m; sourceTree = "<group>"; };
+		8BBB479519482584004A8315 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KeyboardInputsViewController_iPhone.xib; sourceTree = "<group>"; };
+		8BBB479819482584004A8315 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KeyboardInputsViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BBB477319482584004A8315 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BBB477A19482584004A8315 /* UIKit.framework in Frameworks */,
+				8BBB477C19482584004A8315 /* Foundation.framework in Frameworks */,
+				8BBB477E19482584004A8315 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BBB476D19482584004A8315 = {
+			isa = PBXGroup;
+			children = (
+				8BBB477F19482584004A8315 /* KeyboardInputs */,
+				8BBB477819482584004A8315 /* Frameworks */,
+				8BBB477719482584004A8315 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BBB477719482584004A8315 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BBB477619482584004A8315 /* KeyboardInputs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BBB477819482584004A8315 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BBB477919482584004A8315 /* UIKit.framework */,
+				8BBB477B19482584004A8315 /* Foundation.framework */,
+				8BBB477D19482584004A8315 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8BBB477F19482584004A8315 /* KeyboardInputs */ = {
+			isa = PBXGroup;
+			children = (
+				8BBB478819482584004A8315 /* KeyboardInputsAppDelegate.h */,
+				8BBB478919482584004A8315 /* KeyboardInputsAppDelegate.m */,
+				8BBB479119482584004A8315 /* KeyboardInputsViewController.h */,
+				8BBB479219482584004A8315 /* KeyboardInputsViewController.m */,
+				8BBB479419482584004A8315 /* KeyboardInputsViewController_iPhone.xib */,
+				8BBB479719482584004A8315 /* KeyboardInputsViewController_iPad.xib */,
+				8BBB478019482584004A8315 /* Supporting Files */,
+			);
+			path = KeyboardInputs;
+			sourceTree = "<group>";
+		};
+		8BBB478019482584004A8315 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BBB478119482584004A8315 /* KeyboardInputs-Info.plist */,
+				8BBB478219482584004A8315 /* InfoPlist.strings */,
+				8BBB478519482584004A8315 /* main.m */,
+				8BBB478719482584004A8315 /* KeyboardInputs-Prefix.pch */,
+				8BBB478B19482584004A8315 /* Default.png */,
+				8BBB478D19482584004A8315 /* Default@2x.png */,
+				8BBB478F19482584004A8315 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BBB477519482584004A8315 /* KeyboardInputs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BBB479C19482584004A8315 /* Build configuration list for PBXNativeTarget "KeyboardInputs" */;
+			buildPhases = (
+				8BBB477219482584004A8315 /* Sources */,
+				8BBB477319482584004A8315 /* Frameworks */,
+				8BBB477419482584004A8315 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyboardInputs;
+			productName = KeyboardInputs;
+			productReference = 8BBB477619482584004A8315 /* KeyboardInputs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BBB476E19482584004A8315 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KeyboardInputs;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Developer;
+			};
+			buildConfigurationList = 8BBB477119482584004A8315 /* Build configuration list for PBXProject "KeyboardInputs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8BBB476D19482584004A8315;
+			productRefGroup = 8BBB477719482584004A8315 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BBB477519482584004A8315 /* KeyboardInputs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BBB477419482584004A8315 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BBB478419482584004A8315 /* InfoPlist.strings in Resources */,
+				8BBB478C19482584004A8315 /* Default.png in Resources */,
+				8BBB478E19482584004A8315 /* Default@2x.png in Resources */,
+				8BBB479019482584004A8315 /* Default-568h@2x.png in Resources */,
+				8BBB479619482584004A8315 /* KeyboardInputsViewController_iPhone.xib in Resources */,
+				8BBB479919482584004A8315 /* KeyboardInputsViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BBB477219482584004A8315 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BBB478619482584004A8315 /* main.m in Sources */,
+				8BBB478A19482584004A8315 /* KeyboardInputsAppDelegate.m in Sources */,
+				8BBB479319482584004A8315 /* KeyboardInputsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8BBB478219482584004A8315 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BBB478319482584004A8315 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8BBB479419482584004A8315 /* KeyboardInputsViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BBB479519482584004A8315 /* en */,
+			);
+			name = KeyboardInputsViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		8BBB479719482584004A8315 /* KeyboardInputsViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BBB479819482584004A8315 /* en */,
+			);
+			name = KeyboardInputsViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BBB479A19482584004A8315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BBB479B19482584004A8315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BBB479D19482584004A8315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KeyboardInputs/KeyboardInputs-Prefix.pch";
+				INFOPLIST_FILE = "KeyboardInputs/KeyboardInputs-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8BBB479E19482584004A8315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KeyboardInputs/KeyboardInputs-Prefix.pch";
+				INFOPLIST_FILE = "KeyboardInputs/KeyboardInputs-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BBB477119482584004A8315 /* Build configuration list for PBXProject "KeyboardInputs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BBB479A19482584004A8315 /* Debug */,
+				8BBB479B19482584004A8315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BBB479C19482584004A8315 /* Build configuration list for PBXNativeTarget "KeyboardInputs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BBB479D19482584004A8315 /* Debug */,
+				8BBB479E19482584004A8315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BBB476E19482584004A8315 /* Project object */;
+}

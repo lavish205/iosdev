@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BC172C35-FCF1-4A41-8802-65A8554793D4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Accordion</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F42F343E-014A-478D-9E1F-2304F5BFBE0F</key>
+		<string>https://github.com/luckylavish/iosdev</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Accordion/Accordion.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F42F343E-014A-478D-9E1F-2304F5BFBE0F</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/luckylavish/iosdev</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F42F343E-014A-478D-9E1F-2304F5BFBE0F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F42F343E-014A-478D-9E1F-2304F5BFBE0F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Lavish</string>
+		</dict>
+	</array>
+</dict>
+</plist>

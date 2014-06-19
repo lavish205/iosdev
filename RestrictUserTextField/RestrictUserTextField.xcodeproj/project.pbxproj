@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B774E41194DE72F008451E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B774E40194DE72F008451E7 /* UIKit.framework */; };
+		8B774E43194DE72F008451E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B774E42194DE72F008451E7 /* Foundation.framework */; };
+		8B774E45194DE72F008451E7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B774E44194DE72F008451E7 /* CoreGraphics.framework */; };
+		8B774E4B194DE72F008451E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B774E49194DE72F008451E7 /* InfoPlist.strings */; };
+		8B774E4D194DE72F008451E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B774E4C194DE72F008451E7 /* main.m */; };
+		8B774E51194DE72F008451E7 /* RestrictUserTextFieldAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B774E50194DE72F008451E7 /* RestrictUserTextFieldAppDelegate.m */; };
+		8B774E53194DE72F008451E7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B774E52194DE72F008451E7 /* Default.png */; };
+		8B774E55194DE72F008451E7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B774E54194DE72F008451E7 /* Default@2x.png */; };
+		8B774E57194DE72F008451E7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B774E56194DE72F008451E7 /* Default-568h@2x.png */; };
+		8B774E5A194DE72F008451E7 /* RestrictUserTextFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B774E59194DE72F008451E7 /* RestrictUserTextFieldViewController.m */; };
+		8B774E5D194DE72F008451E7 /* RestrictUserTextFieldViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B774E5B194DE72F008451E7 /* RestrictUserTextFieldViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8B774E3D194DE72F008451E7 /* RestrictUserTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestrictUserTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B774E40194DE72F008451E7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8B774E42194DE72F008451E7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8B774E44194DE72F008451E7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8B774E48194DE72F008451E7 /* RestrictUserTextField-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RestrictUserTextField-Info.plist"; sourceTree = "<group>"; };
+		8B774E4A194DE72F008451E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8B774E4C194DE72F008451E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8B774E4E194DE72F008451E7 /* RestrictUserTextField-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RestrictUserTextField-Prefix.pch"; sourceTree = "<group>"; };
+		8B774E4F194DE72F008451E7 /* RestrictUserTextFieldAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RestrictUserTextFieldAppDelegate.h; sourceTree = "<group>"; };
+		8B774E50194DE72F008451E7 /* RestrictUserTextFieldAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RestrictUserTextFieldAppDelegate.m; sourceTree = "<group>"; };
+		8B774E52194DE72F008451E7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8B774E54194DE72F008451E7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8B774E56194DE72F008451E7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8B774E58194DE72F008451E7 /* RestrictUserTextFieldViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RestrictUserTextFieldViewController.h; sourceTree = "<group>"; };
+		8B774E59194DE72F008451E7 /* RestrictUserTextFieldViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RestrictUserTextFieldViewController.m; sourceTree = "<group>"; };
+		8B774E5C194DE72F008451E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RestrictUserTextFieldViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B774E3A194DE72F008451E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B774E41194DE72F008451E7 /* UIKit.framework in Frameworks */,
+				8B774E43194DE72F008451E7 /* Foundation.framework in Frameworks */,
+				8B774E45194DE72F008451E7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B774E34194DE72F008451E7 = {
+			isa = PBXGroup;
+			children = (
+				8B774E46194DE72F008451E7 /* RestrictUserTextField */,
+				8B774E3F194DE72F008451E7 /* Frameworks */,
+				8B774E3E194DE72F008451E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B774E3E194DE72F008451E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B774E3D194DE72F008451E7 /* RestrictUserTextField.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B774E3F194DE72F008451E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B774E40194DE72F008451E7 /* UIKit.framework */,
+				8B774E42194DE72F008451E7 /* Foundation.framework */,
+				8B774E44194DE72F008451E7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8B774E46194DE72F008451E7 /* RestrictUserTextField */ = {
+			isa = PBXGroup;
+			children = (
+				8B774E4F194DE72F008451E7 /* RestrictUserTextFieldAppDelegate.h */,
+				8B774E50194DE72F008451E7 /* RestrictUserTextFieldAppDelegate.m */,
+				8B774E58194DE72F008451E7 /* RestrictUserTextFieldViewController.h */,
+				8B774E59194DE72F008451E7 /* RestrictUserTextFieldViewController.m */,
+				8B774E5B194DE72F008451E7 /* RestrictUserTextFieldViewController.xib */,
+				8B774E47194DE72F008451E7 /* Supporting Files */,
+			);
+			path = RestrictUserTextField;
+			sourceTree = "<group>";
+		};
+		8B774E47194DE72F008451E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B774E48194DE72F008451E7 /* RestrictUserTextField-Info.plist */,
+				8B774E49194DE72F008451E7 /* InfoPlist.strings */,
+				8B774E4C194DE72F008451E7 /* main.m */,
+				8B774E4E194DE72F008451E7 /* RestrictUserTextField-Prefix.pch */,
+				8B774E52194DE72F008451E7 /* Default.png */,
+				8B774E54194DE72F008451E7 /* Default@2x.png */,
+				8B774E56194DE72F008451E7 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B774E3C194DE72F008451E7 /* RestrictUserTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B774E60194DE72F008451E7 /* Build configuration list for PBXNativeTarget "RestrictUserTextField" */;
+			buildPhases = (
+				8B774E39194DE72F008451E7 /* Sources */,
+				8B774E3A194DE72F008451E7 /* Frameworks */,
+				8B774E3B194DE72F008451E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RestrictUserTextField;
+			productName = RestrictUserTextField;
+			productReference = 8B774E3D194DE72F008451E7 /* RestrictUserTextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B774E35194DE72F008451E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RestrictUserTextField;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Developer;
+			};
+			buildConfigurationList = 8B774E38194DE72F008451E7 /* Build configuration list for PBXProject "RestrictUserTextField" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8B774E34194DE72F008451E7;
+			productRefGroup = 8B774E3E194DE72F008451E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B774E3C194DE72F008451E7 /* RestrictUserTextField */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B774E3B194DE72F008451E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B774E4B194DE72F008451E7 /* InfoPlist.strings in Resources */,
+				8B774E53194DE72F008451E7 /* Default.png in Resources */,
+				8B774E55194DE72F008451E7 /* Default@2x.png in Resources */,
+				8B774E57194DE72F008451E7 /* Default-568h@2x.png in Resources */,
+				8B774E5D194DE72F008451E7 /* RestrictUserTextFieldViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B774E39194DE72F008451E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B774E4D194DE72F008451E7 /* main.m in Sources */,
+				8B774E51194DE72F008451E7 /* RestrictUserTextFieldAppDelegate.m in Sources */,
+				8B774E5A194DE72F008451E7 /* RestrictUserTextFieldViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8B774E49194DE72F008451E7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B774E4A194DE72F008451E7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8B774E5B194DE72F008451E7 /* RestrictUserTextFieldViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B774E5C194DE72F008451E7 /* en */,
+			);
+			name = RestrictUserTextFieldViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B774E5E194DE72F008451E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8B774E5F194DE72F008451E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B774E61194DE72F008451E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RestrictUserTextField/RestrictUserTextField-Prefix.pch";
+				INFOPLIST_FILE = "RestrictUserTextField/RestrictUserTextField-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8B774E62194DE72F008451E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RestrictUserTextField/RestrictUserTextField-Prefix.pch";
+				INFOPLIST_FILE = "RestrictUserTextField/RestrictUserTextField-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B774E38194DE72F008451E7 /* Build configuration list for PBXProject "RestrictUserTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B774E5E194DE72F008451E7 /* Debug */,
+				8B774E5F194DE72F008451E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B774E60194DE72F008451E7 /* Build configuration list for PBXNativeTarget "RestrictUserTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B774E61194DE72F008451E7 /* Debug */,
+				8B774E62194DE72F008451E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B774E35194DE72F008451E7 /* Project object */;
+}

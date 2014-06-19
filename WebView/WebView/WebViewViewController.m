@@ -20,7 +20,7 @@
 	// Do any additional setup after loading the view, typically from a nib.
     NSURL *url = [NSURL URLWithString:@"http://luckylavish.github.io"];
     NSURLRequest *req = [NSURLRequest requestWithURL:url];
-    [_webView loadRequest:req];
+    [self.webView loadRequest:req];
 }
 
 - (void)didReceiveMemoryWarning
